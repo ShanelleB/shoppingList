@@ -30,7 +30,7 @@ function main(){
     
     $('.shopping-item-delete').on('click', function(evt){
       evt.preventDefault();
-      $(evt.currentTarget).parent().parent().remove()
+      $(evt.currentTarget).parent().parent().fadeOut(500)
     
     })
     }
